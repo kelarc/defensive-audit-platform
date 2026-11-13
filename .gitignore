@@ -21,6 +21,6 @@ dist/
 .DS_Store
 Thumbs.db
 
-# Claude Code (local only)
+# Claude Code 
 CLAUDE.md
 .claude/
