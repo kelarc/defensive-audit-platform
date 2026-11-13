@@ -1,0 +1,1 @@
+export const SEVERITIES = ["Critical", "High", "Medium", "Low", "Info"];
