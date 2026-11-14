@@ -3,6 +3,11 @@
     "version": "0.1.0",
     "private": true,
     "type": "module",
-    "scripts": {"start": "node --env-file=.env src/index.js"},
-    "dependencies": {"@audit/shared": "*"}
+    "scripts": {
+        "start": "node --env-file=.env src/index.js"
+    },
+    "dependencies": {
+        "@audit/shared": "*",
+        "fastify": "^5.12.8"
+    }
 }
