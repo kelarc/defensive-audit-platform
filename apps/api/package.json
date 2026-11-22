@@ -4,10 +4,17 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "start": "node --env-file=.env src/index.js"
+        "start": "tsx --env-file=.env src/index.ts",
+        "dev": "tsx watch --env-file=.env src/index.ts",
+        "typecheck": "tsc"
     },
     "dependencies": {
         "@audit/shared": "*",
         "fastify": "^5.12.8"
+    },
+    "devDependencies": {
+        "@types/node": "^26.6.6",
+        "tsx": "^4.23.15",
+        "typescript": "^7.0.2"
     }
 }
